@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:(function(){try{return localStorage.getItem('cerez')==='evet'?'granted':'denied'}catch(e){return 'denied'}})()});
+gtag('js',new Date());
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-NRHSP7MN"></script>
 <title>Laboratuvar Pırlantası Nedir? Alınır mı, Nereden Alınır? | 2026</title>
 <meta name="description" content="Laboratuvar pırlantası (lab grown, laboratuvar üretimi pırlanta) nedir, kimler için mantıklı, kimler için değil? Kısa videolu cevaplar, benzer taşlarla karşılaştırma ve almadan önce sorulacak 5 soru.">
 <link rel="canonical" href="https://www.laboratuvarpirlantasinedir.com.tr/">
@@ -428,6 +434,29 @@ footer p{max-width:46em;margin:0}
     document.getElementById('rh').textContent=h;document.getElementById('rp').textContent=p;
     document.getElementById('rm').style.width=s+'%';document.getElementById('rs').textContent='Uygunluk: %'+s;
   }
+})();
+</script>
+<div id="cerez" role="dialog" aria-label="Çerez tercihi" hidden style="position:fixed;left:16px;right:16px;bottom:16px;z-index:999;max-width:720px;margin:0 auto;background:var(--card);border:1px solid var(--line2);border-radius:14px;box-shadow:0 10px 30px rgba(20,23,26,.14);padding:14px 16px;display:none;gap:12px 16px;align-items:center;flex-wrap:wrap;font:500 14px/1.45 var(--sans);color:var(--ink2)">
+  <span style="flex:1 1 260px">Bu site, ziyaret istatistiklerini ölçmek için Google Analytics çerezleri kullanır. Reklam çerezi kullanılmaz.</span>
+  <span style="display:flex;gap:8px">
+    <button type="button" data-c="hayir" style="font:600 14px var(--sans);padding:9px 14px;border-radius:999px;border:1px solid var(--line2);background:transparent;color:var(--ink2);cursor:pointer">Reddet</button>
+    <button type="button" data-c="evet" style="font:600 14px var(--sans);padding:9px 16px;border-radius:999px;border:1px solid var(--green);background:var(--green);color:#fff;cursor:pointer">Kabul et</button>
+  </span>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('cerez'),v=null;
+  try{v=localStorage.getItem('cerez')}catch(e){}
+  if(v)return;
+  b.hidden=false;b.style.display='flex';
+  [].forEach.call(b.querySelectorAll('button'),function(x){
+    x.addEventListener('click',function(){
+      var c=x.dataset.c;
+      try{localStorage.setItem('cerez',c)}catch(e){}
+      if(c==='evet')gtag('consent','update',{analytics_storage:'granted'});
+      b.hidden=true;b.style.display='none';
+    });
+  });
 })();
 </script>
 </body>
